@@ -1,0 +1,65 @@
+/* COMMON */
+body {
+  background-color: gainsboro;
+  color: #333;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.4;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+header {
+  background-color: gainsboro;
+  height: 200px;
+  font-size: 50px;
+  text-align: center;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-text {
+  position: absolute;
+  font-weight: 700;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  width: 600px;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.result {
+  margin-top: 50px;
+  font-size: 40px;
+  text-align: center;
+  justify-content: center;
+}
+
+.guidelevel {
+  margin-top: 80px;
+  line-height: 2.5;
+}
+
+
+.complete {
+  width: 100px;
+  height: 40px;
+  margin: 20px;
+  border-radius: 8px;
+  background-color: aliceblue;
+  font-size: 17px;
+  font-weight: 600;
+}

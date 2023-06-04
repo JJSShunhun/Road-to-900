@@ -1,0 +1,69 @@
+/* COMMON */
+body {
+  background-color: gainsboro;
+  color: #333;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.4;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+header {
+  background-color: gainsboro;
+  height: 200px;
+  font-size: 50px;
+  text-align: center;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-text {
+  position: absolute;
+  font-weight: 700;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #fff;
+  width: 500px;
+  height: 550px;
+}
+
+.container input {
+  width: 400px;
+  height: 50px;
+  margin: 60px 20px 30px 20px;
+  background-color: aliceblue;
+  font-size: 20px;
+}
+
+.login-button-login {
+  width: 350px;
+  height: 45px;
+  margin: 60px 25px 20px 25px;
+  background-color: aliceblue;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #333;
+}
+
+.join {
+  width: 100px;
+  height: 30px;
+  margin: 20px;
+  background-color: aliceblue;
+  border-radius: 10px;
+  font-weight: 600;
+}
